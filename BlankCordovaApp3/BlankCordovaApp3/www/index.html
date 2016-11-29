@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="Core">
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval' https://maps.googleapis.com https://maps.gstatic.com http://ecn.dev.virtualearth.net http://dev.virtualearth.net;  object-src 'self'">
+        
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>BlankCordovaApp3</title>
+
+        <script src="lib/angular/angular.js"></script>
+        <script src="lib/angular-animate/angular-animate.js"></script>
+        <script src="lib/jquery/dist/jquery.min.js"></script>
+        <script src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+        <script src="lib/angular-touch/angular-touch.js"></script>
+        <script src="lib/angular-translate/angular-translate.js"></script>
+        <script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="lib/fastclick/lib/fastclick.js"></script>
+        <script src="lib/hammerjs/hammer.js"></script>
+        <script src="lib/lodash/lodash.js"></script>
+        <script src="lib/moment/moment.js"></script>
+        <script src="lib/ngstorage/ngStorage.js"></script>
+
+        <script type="text/javascript" src="scripts/index.js"></script>
+        <script src="scripts/routing.js"></script>
+        <script src="scripts/mapCtrl.js"></script>
+        <script src="scripts/my-opentok.js"></script>
+
+    </head>
+    <body>
+        <div ui-view></div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="opentok.js"></script>
+        <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+    </body>
+</html>

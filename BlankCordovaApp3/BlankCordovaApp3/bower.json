@@ -1,0 +1,10 @@
+{
+    "name": "BlankCordovaApp3",
+    "dependencies": {
+        "angular": "~1.4.7",
+        "angular-ui-router": "0.2.15"
+    },
+    "resolutions": {
+        "angular": "1.x"
+    }
+}
